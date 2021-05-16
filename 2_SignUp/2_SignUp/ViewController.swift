@@ -8,11 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var ageField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("ViewController - view가 메모리에 로드 됨")
+        
+        // tapGuesture -> 코드로 (스토리보드 연결 X)
+//        let tapGuesture: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.tapView(_:)))
+//        self.view.addGestureRecognizer(tapGuesture)
+        
+        // 또는 UIGestureRecognizerDelegate 사용
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -49,6 +58,16 @@ class ViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         print("ViewController - view가 subview를 레이아웃 함")
+    }
+    
+    @IBAction func setDataBtn(_ sender: UIButton){
+        UserInfo.userInfo.name = nameField.text
+        UserInfo.userInfo.age = ageField.text
+    }
+    
+    // 탭 하면 키보드 내려가게끔
+    @IBAction func tapView(_ sender: UITapGestureRecognizer){
+        self.view.endEditing(true)
     }
 }
 
