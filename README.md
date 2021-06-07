@@ -1,5 +1,3 @@
-# Boostcourese_iOS
-
 <h2>Project: Sign Up</h2>
 <br>
 <strong>구현 시 요구사항</strong>
