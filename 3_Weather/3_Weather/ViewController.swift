@@ -93,5 +93,29 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //        self.tableView.reloadData() // 전체 reload
         self.tableView.reloadSections(IndexSet(2...2), with: .automatic) // 추가되는 데이터만 reload, 애니메이션 추가
     }
+    
+    
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        
+        // segue를 이용하여 다음화면으로 데이터 넘기기
+        
+        guard let secondView: SecondViewController = segue.destination as? SecondViewController else{
+                return
+            }
+        
+        guard let cell: UITableViewCell = sender as? UITableViewCell else {
+            return
+        }
+        
+        secondView.textToSet = cell.textLabel?.text
+        
+        // 텍스트를 직접 세팅해주려 하면, textLabel이 메모리에 아직 올라오지 않은 상태이기 때문에 exception 발생
+        // secondView.textLabel.text = cell.textLabel?.text
+    }
 }
 

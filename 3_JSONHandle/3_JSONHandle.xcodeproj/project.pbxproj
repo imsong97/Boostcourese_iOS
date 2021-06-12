@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDB640EA266E4EF90074EF5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB640E9266E4EF90074EF5B /* AppDelegate.swift */; };
-		CDB640EC266E4EF90074EF5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB640EB266E4EF90074EF5B /* SceneDelegate.swift */; };
-		CDB640EE266E4EF90074EF5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB640ED266E4EF90074EF5B /* ViewController.swift */; };
-		CDB640F1266E4EF90074EF5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB640EF266E4EF90074EF5B /* Main.storyboard */; };
-		CDB640F3266E4EFD0074EF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB640F2266E4EFD0074EF5B /* Assets.xcassets */; };
-		CDB640F6266E4EFD0074EF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB640F4266E4EFD0074EF5B /* LaunchScreen.storyboard */; };
-		CDB640FE267230950074EF5B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB640FD267230950074EF5B /* CustomTableViewCell.swift */; };
-		CDB6410026748DA60074EF5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB640FF26748DA60074EF5B /* SecondViewController.swift */; };
+		CDB6410E26748FA90074EF5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6410D26748FA90074EF5B /* AppDelegate.swift */; };
+		CDB6411026748FA90074EF5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6410F26748FA90074EF5B /* SceneDelegate.swift */; };
+		CDB6411226748FA90074EF5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6411126748FA90074EF5B /* ViewController.swift */; };
+		CDB6411526748FA90074EF5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6411326748FA90074EF5B /* Main.storyboard */; };
+		CDB6411726748FAB0074EF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB6411626748FAB0074EF5B /* Assets.xcassets */; };
+		CDB6411A26748FAB0074EF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6411826748FAB0074EF5B /* LaunchScreen.storyboard */; };
+		CDB641222674935A0074EF5B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB641212674935A0074EF5B /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDB640E6266E4EF90074EF5B /* 3_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDB640E9266E4EF90074EF5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDB640EB266E4EF90074EF5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDB640ED266E4EF90074EF5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDB640F0266E4EF90074EF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDB640F2266E4EFD0074EF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDB640F5266E4EFD0074EF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDB640F7266E4EFD0074EF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDB640FD267230950074EF5B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		CDB640FF26748DA60074EF5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CDB6410A26748FA90074EF5B /* 3_JSONHandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3_JSONHandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB6410D26748FA90074EF5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDB6410F26748FA90074EF5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDB6411126748FA90074EF5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB6411426748FA90074EF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB6411626748FAB0074EF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB6411926748FAB0074EF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB6411B26748FAB0074EF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB641212674935A0074EF5B /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDB640E3266E4EF90074EF5B /* Frameworks */ = {
+		CDB6410726748FA90074EF5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDB640DD266E4EF90074EF5B = {
+		CDB6410126748FA80074EF5B = {
 			isa = PBXGroup;
 			children = (
-				CDB640E8266E4EF90074EF5B /* 3_Weather */,
-				CDB640E7266E4EF90074EF5B /* Products */,
+				CDB641212674935A0074EF5B /* Friend.swift */,
+				CDB6410C26748FA90074EF5B /* 3_JSONHandle */,
+				CDB6410B26748FA90074EF5B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDB640E7266E4EF90074EF5B /* Products */ = {
+		CDB6410B26748FA90074EF5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDB640E6266E4EF90074EF5B /* 3_Weather.app */,
+				CDB6410A26748FA90074EF5B /* 3_JSONHandle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDB640E8266E4EF90074EF5B /* 3_Weather */ = {
+		CDB6410C26748FA90074EF5B /* 3_JSONHandle */ = {
 			isa = PBXGroup;
 			children = (
-				CDB640E9266E4EF90074EF5B /* AppDelegate.swift */,
-				CDB640EB266E4EF90074EF5B /* SceneDelegate.swift */,
-				CDB640ED266E4EF90074EF5B /* ViewController.swift */,
-				CDB640EF266E4EF90074EF5B /* Main.storyboard */,
-				CDB640FD267230950074EF5B /* CustomTableViewCell.swift */,
-				CDB640F2266E4EFD0074EF5B /* Assets.xcassets */,
-				CDB640F4266E4EFD0074EF5B /* LaunchScreen.storyboard */,
-				CDB640F7266E4EFD0074EF5B /* Info.plist */,
-				CDB640FF26748DA60074EF5B /* SecondViewController.swift */,
+				CDB6410D26748FA90074EF5B /* AppDelegate.swift */,
+				CDB6410F26748FA90074EF5B /* SceneDelegate.swift */,
+				CDB6411126748FA90074EF5B /* ViewController.swift */,
+				CDB6411326748FA90074EF5B /* Main.storyboard */,
+				CDB6411626748FAB0074EF5B /* Assets.xcassets */,
+				CDB6411826748FAB0074EF5B /* LaunchScreen.storyboard */,
+				CDB6411B26748FAB0074EF5B /* Info.plist */,
 			);
-			path = 3_Weather;
+			path = 3_JSONHandle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDB640E5266E4EF90074EF5B /* 3_Weather */ = {
+		CDB6410926748FA90074EF5B /* 3_JSONHandle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDB640FA266E4EFD0074EF5B /* Build configuration list for PBXNativeTarget "3_Weather" */;
+			buildConfigurationList = CDB6411E26748FAB0074EF5B /* Build configuration list for PBXNativeTarget "3_JSONHandle" */;
 			buildPhases = (
-				CDB640E2266E4EF90074EF5B /* Sources */,
-				CDB640E3266E4EF90074EF5B /* Frameworks */,
-				CDB640E4266E4EF90074EF5B /* Resources */,
+				CDB6410626748FA90074EF5B /* Sources */,
+				CDB6410726748FA90074EF5B /* Frameworks */,
+				CDB6410826748FA90074EF5B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 3_Weather;
-			productName = 3_Weather;
-			productReference = CDB640E6266E4EF90074EF5B /* 3_Weather.app */;
+			name = 3_JSONHandle;
+			productName = 3_JSONHandle;
+			productReference = CDB6410A26748FA90074EF5B /* 3_JSONHandle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDB640DE266E4EF90074EF5B /* Project object */ = {
+		CDB6410226748FA80074EF5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					CDB640E5266E4EF90074EF5B = {
+					CDB6410926748FA90074EF5B = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = CDB640E1266E4EF90074EF5B /* Build configuration list for PBXProject "3_Weather" */;
+			buildConfigurationList = CDB6410526748FA90074EF5B /* Build configuration list for PBXProject "3_JSONHandle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = CDB640DD266E4EF90074EF5B;
-			productRefGroup = CDB640E7266E4EF90074EF5B /* Products */;
+			mainGroup = CDB6410126748FA80074EF5B;
+			productRefGroup = CDB6410B26748FA90074EF5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDB640E5266E4EF90074EF5B /* 3_Weather */,
+				CDB6410926748FA90074EF5B /* 3_JSONHandle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CDB640E4266E4EF90074EF5B /* Resources */ = {
+		CDB6410826748FA90074EF5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB640F6266E4EFD0074EF5B /* LaunchScreen.storyboard in Resources */,
-				CDB640F3266E4EFD0074EF5B /* Assets.xcassets in Resources */,
-				CDB640F1266E4EF90074EF5B /* Main.storyboard in Resources */,
+				CDB6411A26748FAB0074EF5B /* LaunchScreen.storyboard in Resources */,
+				CDB6411726748FAB0074EF5B /* Assets.xcassets in Resources */,
+				CDB6411526748FA90074EF5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDB640E2266E4EF90074EF5B /* Sources */ = {
+		CDB6410626748FA90074EF5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB640EE266E4EF90074EF5B /* ViewController.swift in Sources */,
-				CDB640EA266E4EF90074EF5B /* AppDelegate.swift in Sources */,
-				CDB640FE267230950074EF5B /* CustomTableViewCell.swift in Sources */,
-				CDB6410026748DA60074EF5B /* SecondViewController.swift in Sources */,
-				CDB640EC266E4EF90074EF5B /* SceneDelegate.swift in Sources */,
+				CDB6411226748FA90074EF5B /* ViewController.swift in Sources */,
+				CDB6410E26748FA90074EF5B /* AppDelegate.swift in Sources */,
+				CDB6411026748FA90074EF5B /* SceneDelegate.swift in Sources */,
+				CDB641222674935A0074EF5B /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDB640EF266E4EF90074EF5B /* Main.storyboard */ = {
+		CDB6411326748FA90074EF5B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDB640F0266E4EF90074EF5B /* Base */,
+				CDB6411426748FA90074EF5B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CDB640F4266E4EFD0074EF5B /* LaunchScreen.storyboard */ = {
+		CDB6411826748FAB0074EF5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDB640F5266E4EFD0074EF5B /* Base */,
+				CDB6411926748FAB0074EF5B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CDB640F8266E4EFD0074EF5B /* Debug */ = {
+		CDB6411C26748FAB0074EF5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		CDB640F9266E4EFD0074EF5B /* Release */ = {
+		CDB6411D26748FAB0074EF5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,36 +285,36 @@
 			};
 			name = Release;
 		};
-		CDB640FB266E4EFD0074EF5B /* Debug */ = {
+		CDB6411F26748FAB0074EF5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 3_Weather/Info.plist;
+				INFOPLIST_FILE = 3_JSONHandle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yunho.--Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "yunho.--JSONHandle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CDB640FC266E4EFD0074EF5B /* Release */ = {
+		CDB6412026748FAB0074EF5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 3_Weather/Info.plist;
+				INFOPLIST_FILE = 3_JSONHandle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yunho.--Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "yunho.--JSONHandle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDB640E1266E4EF90074EF5B /* Build configuration list for PBXProject "3_Weather" */ = {
+		CDB6410526748FA90074EF5B /* Build configuration list for PBXProject "3_JSONHandle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDB640F8266E4EFD0074EF5B /* Debug */,
-				CDB640F9266E4EFD0074EF5B /* Release */,
+				CDB6411C26748FAB0074EF5B /* Debug */,
+				CDB6411D26748FAB0074EF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDB640FA266E4EFD0074EF5B /* Build configuration list for PBXNativeTarget "3_Weather" */ = {
+		CDB6411E26748FAB0074EF5B /* Build configuration list for PBXNativeTarget "3_JSONHandle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDB640FB266E4EFD0074EF5B /* Debug */,
-				CDB640FC266E4EFD0074EF5B /* Release */,
+				CDB6411F26748FAB0074EF5B /* Debug */,
+				CDB6412026748FAB0074EF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDB640DE266E4EF90074EF5B /* Project object */;
+	rootObject = CDB6410226748FA80074EF5B /* Project object */;
 }
